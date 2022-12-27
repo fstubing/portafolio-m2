@@ -13,3 +13,4 @@
 - git branch -m main para crear rama main (inicialmente partí en la master)
 - git status para verificar estado areas de trabajo y preparación
 - git log para revisar las distintas versiones de mi proyecto
+- git push para subir mi proyecto al repositorio externo de github

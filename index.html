@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Módulo 2</title>
+    <link rel="shortcut icon" href="/assets/img/pizza_icon_131067.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+<body class="text-bg-info">
+    <nav class="navbar fixed-top navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#"><img src="/assets/img/pizza_icon_131067.ico" alt="">LA PIZZERIA</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -21,46 +22,50 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Quienes somos</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
+                  Productos
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Hornos</a></li>
+                  <li><a class="dropdown-item" href="#">Máquinas para masa</a></li>
+                  <li><a class="dropdown-item" href="#">Accesorios</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
+                <a class="nav-link" aria-current="page" href="#">Contacto</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            <button btn btn-secondary>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"></path>
+              </svg>
+            </button>
           </div>
         </div>
     </nav>
 
-    <div id="carouselExampleIndicators" class="carousel slide">
+    <div id="carouselExampleIndicators" class="carousel slide container mt-3">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="..." class="d-block w-100" alt="...">
+            <img src="/assets/img/amasado.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+            <img src="/assets/img/amasadora.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+            <img src="/assets/img/cocina.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/img/pizza.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -73,22 +78,74 @@
         </button>
     </div>
 
-    <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <div class="container contenedor-cards row row-cols-1 row-cols-md-2 g-4 m-auto">
+      <div class="col">
+        <div class="card h-100">
+          <a href="/producto.html"><img src="/assets/img/horno_gas.jpg" class="card-img-top" alt="imagen horno"></a>  
+          <div class="card-body">
+            <h5 class="card-title"><a href="/producto.html">HORNO A GAS GALILEO 360</a></h5>
+            <H4 class="card-title">$450.000 CLP</H4>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><p class="card-text">Castelnuovo</p></li>
+            <li class="list-group-item"><button class="btn btn-primary">AGREGAR AL CARRITO</button></li>
+          </ul>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">An item</li>
-          <li class="list-group-item">A second item</li>
-          <li class="list-group-item">A third item</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <a href="/producto.html"><img src="/assets/img/pala_circular.jpg" class="card-img-top" alt="imagen pala circular"></a>
+          <div class="card-body">
+            <h5 class="card-title"><a href="/producto.html">PALA CIRCULAR PARA PIZZA 30 CM.</a></h5>
+            <H4 class="card-title">$48.000 CLP</H4>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><p class="card-text">Sanelli Italy</p></li>
+            <li class="list-group-item"><button class="btn btn-primary">AGREGAR AL CARRITO</button></li>
+          </ul>
         </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <a href="/producto.html"><img src="/assets/img/amasadora.png" class="card-img-top" alt="imagen amasadora eléctrica"><a>
+          <div class="card-body">
+            <h5 class="card-title"><a href="/producto.html">AMASADORA PROFESIONAL APK-50</a></h5>
+            <H4 class="card-title">$1.350.000 CLP</H4>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><p class="card-text">Pareti-Kitchenette</p></li>
+            <li class="list-group-item"><button class="btn btn-primary">AGREGAR AL CARRITO</button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <a href="/producto.html"><img src="/assets/img/bandeja_pizza.jpg" class="card-img-top" alt="bandeja para pizza"></a>
+          <div class="card-body">
+            <h5 class="card-title"><a href="/producto.html">BANDEJA PARA PIZZA ø38 ALUMINIO PERFORADA</a></h5>
+            <h4 class="card-title">$25.990 CLP</h4>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><p class="card-text">Castelnuovo</p></li>
+            <li class="list-group-item"><button class="btn btn-primary">AGREGAR AL CARRITO</button></li>
+          </ul>
+        </div>
+      </div>
     </div>
+
+    <footer id="pie-de-pagina">
+      <div>
+        <p>© 2022 LA PIZZERIA</p>
+      </div>
+        <nav>
+          <ul>
+            <li><a href="">Términos</a></li>
+            <li><a href="">Privacidad</a></li>
+            <li><a href="">Seguridad</a></li>
+            <li><a href="">Contacto</a></li>
+          </ul>
+        </nav>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
