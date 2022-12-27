@@ -48,3 +48,8 @@ body{
 .navbar{
     background-color: lightgray;
 }
+
+.carro{
+    display: flex;
+    flex-direction: row;
+}
