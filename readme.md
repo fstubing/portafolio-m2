@@ -1,8 +1,16 @@
 # PROYECTO PORTAFOLIO MÓDULO 2
 
+## CUENTA DE GITHUB
+
+https://github.com/fstubing
+
+## LINK GITHUB PAGES
+
+[Deploy Github Pages](https://fstubing.github.io/portafolio-m2/)
+
 ## INTRODUCCIÓN
 
-    Proyecto consiste en la construcción de un sitio web de e-commerce básico que contiene como elementos principales una barra de navegación, un carrusel que funciona como una especie de hero section, tarjetas con los productos ofrecidos y un footer. Además contiene una página que sirve para mostrar uno de los productos ofrecidos.
+Proyecto consiste en la construcción de un sitio web de e-commerce básico que contiene como elementos principales una barra de navegación, un carrusel que funciona como una especie de hero section, tarjetas con los productos ofrecidos y un footer. Además contiene una página que sirve para mostrar uno de los productos ofrecidos.
 
 ## HERRAMIENTAS UTILIZADAS
 
