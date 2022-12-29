@@ -7,6 +7,10 @@ body{
     padding-top: 150px;
 }
 
+.navbar-brand img{
+    width: 100px;
+}
+
 #carouselExampleIndicators img{
     width: 100%;
     height: 100%;
