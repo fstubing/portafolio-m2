@@ -56,10 +56,19 @@ body{
     background-color: lightgray;
 }
 
-.carro{
+.carro a{
     display: flex;
     flex-direction: row;
 }
+
+#form div{
+    padding-top: 5px;
+}
+
+.img-carro{
+    width: 100%;
+}
+
 
 @media (min-width: 767px){
     #pie-de-pagina ul{
@@ -76,4 +85,9 @@ body{
         align-items: center;
         padding-left: 30px;
     }
+
+    .img-carro{
+        width: 50%;
+    }
+
 }

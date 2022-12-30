@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="./assets/img/pizza_icon_131067.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body class="text-bg-info">
+    <nav class="navbar fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"><img src="./assets/img/pizza_icon_131067.ico" alt="icono">LA PIZZERIA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Quienes somos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Productos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Hornos</a></li>
+                  <li><a class="dropdown-item" href="#">Máquinas para masa</a></li>
+                  <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+            <button class="btn carro">
+                <a href="./carrito.html" class="btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"></path>
+                </svg>              
+                <p id="counter-label">0</p></a>
+            </button>
+          </div>
+        </div>
+    </nav>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-8">
+                <h3>CARRITO DE COMPRAS</h3>
+                <h5>2 PRODUCTOS</h5>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <button class="btn btn-primary">Finalizar compra</button>
+            </div>
+        </div>
+        <div class="row">            
+            <div class="col">
+                <div class="row m-3 p-carro">
+                    <div class="col-sm-12 col-md-4"><img class="img-carro" src="./assets/img/horno_gas.jpg" alt="imagen horno"></div>
+                    <div class="col-sm-6 col-md-4">
+                        <p>HORNO A GAS GALILEO 360</p>
+                        <P>CANTIDAD: 1</P>
+                    </div>
+                    <div class="col-sm-6 col-md-4"><p>$450.000</p></div>                   
+                </div>
+                <div class="row m-3">
+                    <div class="col-sm-12 col-md-4"><img class="img-carro" src="./assets/img/pala_circular.jpg" alt="imagen pala de pizza"></div>
+                    <div class="col-sm-6 col-md-4">
+                        <p>PALA CIRCULAR PIZZA 30 CM.</p>
+                        <P>CANTIDAD: 1</P>
+                    </div>
+                    <div class="col-sm-6 col-md-4"><p>$48.000</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">            
+            <div class="col-sm-12 col-md-8">
+                <form action="" method="get">
+                    <label for="cupon">Cupón de descuento</label>
+                    <input type="number">
+                    <input type="button" value="submit" class="btn btn-primary">
+                </form>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <p>subtotal $498.000</p>
+                <p>costo de envío $10.000</p>
+                <h5>TOTAL $508.000</h5>
+            </div>
+        </div>
+        <div class="row">            
+            <div class="col-sm-6 col-md-8">
+                <button class="btn btn-secondary"><a href="./index.html">continuar comprando</a></button>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <button class="btn btn-primary">Finalizar compra</button>
+            </div>
+        </div>
+        <div class="row"></div>
+    </section>
+
+    <footer id="pie-de-pagina">
+        <div>
+          <p>© 2022 LA PIZZERIA</p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="">Términos</a></li>
+            <li><a href="">Privacidad</a></li>
+            <li><a href="">Seguridad</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>  
+</body>
+</html>
